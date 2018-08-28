@@ -22,4 +22,12 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+	public function about()
+	{
+		$this->load->view('about_me');
+	}
+	public function porto_folio()
+	{
+		$this->load->view('forto-polio');
+	}
 }
